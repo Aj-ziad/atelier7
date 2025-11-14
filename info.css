@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    background-color: rgb(98, 135, 180);
+    height: 100%;
+    padding: 20px 80px;
+}
+.container .navigation{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .navigation .title h1{
+    color: white;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns .cnnct a{
+    color: white;
+    font-size: 14px;
+}
+.btns .menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.btns .menu nav ul li{
+    list-style: none;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.btns .menu nav ul li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contenu{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+.contenu .bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.contenu .bottom img{
+    width: 150px;
+}
+.contenu .bottom p{
+    font-size: 12px;
+    color: gray;
+}
